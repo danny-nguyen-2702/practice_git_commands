@@ -1,13 +1,13 @@
 import sys
 
 def dog():
-    print('Woof')
+    print('Woof!')
 
 def default():
     print('Hello')
 
 def cat():
-    print('Meow')
+    print('Meow!')
 
 def main():
     if sys.argv[1] == 'cat':
