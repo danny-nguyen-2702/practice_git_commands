@@ -1,5 +1,8 @@
 import sys
 
+def duck():
+    print('Quack!')
+
 def dog():
     print('Woof!')
 
