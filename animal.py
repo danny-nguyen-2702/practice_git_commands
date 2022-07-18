@@ -10,7 +10,9 @@ def cat():
     print('Meowwwwwwwwwwwwwwwwwwwwwww')
 
 def main():
-    if sys.argv[1] == 'cat':
+    if len(sys.argv) == 1:
+        print('Hello')
+    elif sys.argv[1] == 'cat':
         cat()
     elif sys.argv[1] == 'dog':
         dog()
