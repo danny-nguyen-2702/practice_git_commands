@@ -7,7 +7,7 @@ def default():
     print('hello')
 
 def cat():
-    print('Meow!')
+    print('Meowwwwwwwwwwwwwwwwwwwwwww')
 
 def main():
     if sys.argv[1] == 'cat':
